@@ -9,5 +9,7 @@ public class OrderService {
         double total = totalWithTax(subtotal);
         email.send(customerEmail, "Thanks! Your total is " + total);
         System.out.println("Order stored (pretend DB).");
+        System.err.println("");
     }
 }
+

@@ -1,7 +1,6 @@
 public class Frame { 
     byte[] data; 
-    Frame(byte[] d)
-    { 
+    Frame(byte[] d) { 
         this.data=d; 
     } 
 }
